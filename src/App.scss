@@ -2,3 +2,6 @@
 @import 'carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
 @import 'carbon-components/scss/globals/scss/typography.scss';
 @import 'carbon-components/scss/globals/scss/vars.scss';
+
+@import '../src/Component/Signin/Signin';
+@import '../src/Component/Signup/Signup';

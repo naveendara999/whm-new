@@ -1,0 +1,223 @@
+.signup--page {
+  background: $black-100;
+  padding-top: 3rem;
+  .bx--row {
+    margin: 0;
+  }
+  .banner {
+    color: $white-0;
+    position: relative;
+    .signin-banner {
+      padding-top: 20.75rem;
+      .heading h1 {
+        text-align: left;
+        font: normal normal 300 42px/55px IBM Plex Sans;
+        letter-spacing: 0px;
+      }
+      .sub-heading {
+        padding-top: 4rem;
+
+        h5 {
+          text-align: left;
+          font: normal normal 600 20px/27px IBM Plex Sans;
+          letter-spacing: 0.23px;
+        }
+      }
+      .about {
+        padding-top: 1.5rem;
+        p {
+          text-align: left;
+          font: normal normal 300 16px/20px IBM Plex Sans;
+          letter-spacing: 0.18px;
+        }
+      }
+      .slider-btn {
+        display: inline-flex;
+        padding-top: 4rem;
+        padding-bottom: 310px;
+
+        .active {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: $white-0;
+          margin-right: 1rem;
+        }
+        .circle {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: $blue-70;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  .arow-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    .bx--btn,
+    .bx--btn--field,
+    .bx--btn--primary {
+      max-width: 72px;
+    }
+    .arows {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.login--formpage {
+  padding-top: 213px;
+  .backButton {
+    padding-bottom: 1.5rem;
+    a {
+      display: flex;
+      text-align: center;
+      color: $gray-30;
+      text-decoration: none;
+      svg {
+        fill: $gray-30;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.signup--box {
+  color: $white-0;
+  svg {
+    fill: $white-0;
+  }
+  .bx--text-input {
+    background-color: $gray-90;
+    color: $gray-10;
+  }
+  .btn--full {
+    width: 100%;
+    max-width: 100%;
+  }
+  .bx--checkbox-label-text {
+    color: $gray-30;
+  }
+  .terms {
+    color: $gray-30;
+    a {
+      padding-left: 2rem;
+      color: $gray-30;
+    }
+  }
+  li {
+    list-style: none;
+    p {
+      font: normal normal normal 28px/37px IBM Plex Sans;
+      letter-spacing: 0.15px;
+    }
+    span {
+      text-align: left;
+      font: normal normal normal 14px/18px IBM Plex Sans;
+      letter-spacing: 0.08px;
+      color: $gray-50;
+    }
+  }
+
+  .form-heading {
+    padding-top: 4rem;
+    color: $white-0;
+    h4 {
+      text-align: left;
+      font: normal normal 600 18px/23px IBM Plex Sans;
+      letter-spacing: 0.1px;
+    }
+    h6 {
+      padding-top: 2rem;
+      text-align: left;
+      font: normal normal normal 12px/15px IBM Plex Sans;
+      letter-spacing: 0.31px;
+      color: $gray-30;
+    }
+    p {
+      text-align: left;
+      font: normal normal normal 12px/15px IBM Plex Sans;
+      letter-spacing: 0.31px;
+      color: $gray-50;
+    }
+    .helpingLabel {
+      a {
+        text-decoration: none;
+        text-align: left;
+        font: normal normal normal 12px/15px IBM Plex Sans;
+        letter-spacing: 0.31px;
+      }
+    }
+  }
+  .bx--label {
+    font: normal normal normal 12px/15px IBM Plex Sans;
+    letter-spacing: 0.31px;
+    color: $gray-30;
+  }
+  .helping-text {
+    padding-top: 0.5rem;
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      span {
+        width: 50%;
+        font: normal normal normal 12px/15px IBM Plex Sans;
+        letter-spacing: 0.32px;
+        color: $gray-50;
+        opacity: 1;
+      }
+    }
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+  .next {
+    padding-top: 4rem;
+  }
+  .perInfo {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .bx--fieldset {
+      width: 49%;
+      max-width: 50%;
+      .last-name {
+        margin-left: 1rem;
+      }
+    }
+  }
+  .bx--list-box__field,
+  .bx--list-box__menu {
+    background-color: $gray-90;
+  }
+
+  .bx--list-box__menu-item__option {
+    color: $white-0;
+  }
+  .finish {
+    padding-top: 2rem;
+  }
+  .lock {
+    color: $white-0;
+    svg {
+      width: 90px;
+      height: 90px;
+      margin-left: -1.5rem;
+      margin-top: -1rem;
+    }
+  }
+}
+.resend-code {
+  display: flex;
+  justify-content: space-between;
+  .bx--btn {
+    width: 49%;
+    max-width: 50%;
+    .btn-resend {
+      margin-left: 1rem;
+    }
+  }
+}
